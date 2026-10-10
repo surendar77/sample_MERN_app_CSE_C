@@ -7,6 +7,7 @@ student_router=APIRouter(prefix="/student",tags=["student"])
 #localhost:8000/student/addstudent
 @student_router.post("/addStudent")
 def addStudent(stu:Student_model):
+
     result=student_collection.insert_one(stu.model_dump())
     #model_dump used to convert class fields into dict
     return "student inserted success"
