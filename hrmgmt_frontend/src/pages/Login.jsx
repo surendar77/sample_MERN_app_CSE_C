@@ -8,7 +8,7 @@ function Login(){
   let navigate=useNavigate()
   let handleLogin= async(event)=>{
      event.preventDefault()
-     if(email=="admin@gmail.com" && password=="admin"){
+     if(emailid=="admin@gmail.com" && password=="admin"){
           navigate("/adminhome")
      }else{
         let req=await fetch("http://localhost:3000/api/emp/login",
