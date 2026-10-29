@@ -1978,6 +1978,134 @@ npm install mongoose
 
 
 
+23/10/2026
+
+Today's topic:
+ 1.Forms in react
+ 2.Event handling in react
+ 3.state in react
+
+Note:
+  1.open sample_mern_app in vscode from GitHub desktop
+  2. right click hrmgmt_frontend => open in integrated terminal
+
+inside src => pages => create two new files
+     1.Register.jsx
+     2.Login.jsx
+
+
+create one more page
+
+inside src => pages folder
+    UserHome.jsx
+
+
+
+
+
+
+
+
+
+in Register.jsx
+
+create form with four fields
+
+name
+emailid
+password
+role => select box(Employee,Hr)
+
+after creating form  in app.jsx import and create route for register
+in Header_component.jsx add new menu register
+
+
+
+
+
+
+
+
+
+
+24/10/2026
+
+Connecting frontend with backend
+
+
+Note:
+  1.open sample_mern_app in vscode from GitHub desktop
+  2.right click hrmgmt_frontend => open in integrated terminal
+  3.open mongodb compass and connect it
+
+
+
+
+
+
+cors => cross browser scripting error
+  => it is used to allow the request from frontend to backend
+  => it is used to secure your backend from hackers
+
+npm install cors
+
+
+axios
+   => used to connect front end to backend
+   => used to call the API's in the backend with http methods
+
+npm install axios
+
+
+
+
+
+
+
+
+
+
+
+backend url for register
+
+localhost:3000/api/emp/register
+   => POST
+
+name,email,password,role
+
+
+
+24/10/2026
+
+Connecting frontend with backend part-II
+
+login page and role based menu's on home page
+
+Note:
+  1.open sample_mern_app in vscode from GitHub desktop
+  2.right click hrmgmt_frontend => open in integrated terminal
+        run frontend also => npm run dev
+  3.open mongodb compass and connect it
+  4.right click back-end => open in integrated terminal then run backend by below command
+ 	nodemon index.js
+
+
+
+
+inside  src => pages
+
+HrHome.jsx
+EmpHome.jsx
+AdminHome.jsx
+
+
+
+
+localhost:3000/api/emp/login
+
+post
+
+email & password
 
 
 
