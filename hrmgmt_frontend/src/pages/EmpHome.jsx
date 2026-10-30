@@ -1,8 +1,11 @@
 function EmpHome(){
+     let currentuser=JSON.parse(localStorage.getItem("currentuser"))
+    //JSON.parse() => convert json to string 
     return(
         <div>
             <h1>Employee home</h1>
-        </div>
+         <h2>welcome {currentuser.name}</h2>
+    </div>
     )
 }
 export default EmpHome

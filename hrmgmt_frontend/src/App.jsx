@@ -6,7 +6,6 @@ import Contact from './pages/Contact'
 import Login from './pages/Login'
 import Register from './pages/Register'
 import UserHome from './pages/UserHome'
-import ViewEmployees from './pages/ViewEmployees'
 import HrHome from './pages/HrHome'
 import EmpHome from './pages/EmpHome'
 import AdminHome from './pages/AdminHome'
@@ -24,7 +23,6 @@ function App() {
        <Route path="/hrhome" element={<HrHome/>}></Route>
        <Route path="/emphome" element={<EmpHome/>}></Route>
        <Route path="/adminhome" element={<AdminHome/>}></Route>
-       <Route path="/viewemployees" element={<ViewEmployees/>}></Route>
 
        <Route path="/userhome" element={<UserHome/>}></Route>
        <Route path="/about" element={<About/>}></Route>
